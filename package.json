@@ -1,0 +1,23 @@
+{
+  "name": "simple-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AtomicSerpent/node-simple-api.git"
+  },
+  "author": "Atomic Serpent",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/AtomicSerpent/node-simple-api/issues"
+  },
+  "homepage": "https://github.com/AtomicSerpent/node-simple-api#readme",
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "nodemon": "^2.0.15"
+  }
+}
