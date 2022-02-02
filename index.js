@@ -6,7 +6,7 @@ const ip = require("./getIp");
 const fs = require("fs");
 const port = process.env.PORT || 3000;
 
-health = JSON.parse(
+const health = JSON.parse(
   JSON.stringify(fs.readFileSync(`${__dirname}/dev-data/health.json`, "utf-8"))
 );
 
